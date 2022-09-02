@@ -6,5 +6,3 @@ deploy_example.sh script and therefore do not need to be updated.
 terraform {
   required_version = ">= 1.0.8"
 }
-
-provider "aws" {}

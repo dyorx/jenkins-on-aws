@@ -32,10 +32,6 @@
         }
       },
       "secrets": [
-        {
-          "name": "ADMIN_PWD",
-          "valueFrom": "arn:aws:ssm:${region}:${account_id}:parameter/jenkins-pwd"
-        }
       ]
     }
 ]

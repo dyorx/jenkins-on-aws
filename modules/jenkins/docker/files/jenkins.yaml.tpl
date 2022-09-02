@@ -10,7 +10,7 @@ jenkins:
             allowsSignup: false
             users:
                 - id: ecsuser
-                  password: \$${ADMIN_PWD}
+                  password: jknPsswd
     authorizationStrategy:
         globalMatrix:
             grantedPermissions:
